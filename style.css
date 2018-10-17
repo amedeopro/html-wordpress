@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: url("default-pattern.png");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: left top;
+  background-size: auto;
+}
+
+.container{
+  width: 70vw;
+  background-color: red;
+  margin: 25px auto;
+  position: relative;
+}
+
+.header{
+  width: 100%;
+  background: url("header.jpg");
+  height: 220px;
+  background-size: cover;
+  background-repeat: repeat;
+  border: 15px solid white;
+  text-align: center;
+  color: white;
+}
+
+.header p{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#title-header{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 3em;
+}
+
+#subtitle-header{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  letter-spacing: 2
+}
+
+.nav-bar{
+  background-color: #504741;
+  color: #999999;
+  position:absolute;
+  width: 100%
+}
+
+.nav-bar ul{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.nav-bar ul li:not(:last-child){
+  line-height: 35px;
+  display: inline;
+  /* margin: 20px; */
+  padding: 5px;
+  border-right: 1px solid lightgrey;
+  color: rgba(255, 255, 255, 0.7);
+
+}
+
+.nav-bar ul li:last-child{
+  line-height: 35px;
+  display: inline;
+  margin-right: 20px;
+  padding-right: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.nav-bar ul li:hover{
+  background-color: red;
+}
