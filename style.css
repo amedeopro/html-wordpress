@@ -85,3 +85,31 @@ body{
 .nav-bar ul li:hover{
   background-color: red;
 }
+
+.container-body{
+  width: 70vw;
+  background-color: red;
+  margin: 50px auto;
+}
+
+.colonna{
+  background: white;
+  padding: 15px;
+}
+
+.colonna-sx{
+  width: 20%;
+  float: left;
+  margin-right: 20px;
+}
+
+.centro{
+  width: 50%;
+  float: left;
+  margin-right: 20px;
+}
+
+.colonna-dx{
+  width: 27%;
+  float: left;
+}
