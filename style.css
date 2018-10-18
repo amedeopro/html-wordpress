@@ -25,7 +25,7 @@ body{
   background: url("header.jpg");
   height: 220px;
   background-size: cover;
-  background-repeat: repeat;
+  /* background-repeat: repeat; */
   border: 15px solid white;
   text-align: center;
   color: white;
