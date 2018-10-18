@@ -92,8 +92,9 @@ body{
   margin: 50px auto;
 }
 
-.pdg-col{
+.pdg-col-shw{
   padding: 15px;
+  box-shadow: 2px 5px 10px #000000;
 }
 
 .colonna-sx{
