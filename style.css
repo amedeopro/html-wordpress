@@ -66,7 +66,7 @@ body{
 
 .nav-bar ul li:not(:last-child){
   line-height: 35px;
-  display: inline;
+  display: inline-block;
   border-right: 1px solid lightgrey;
   color: rgba(255, 255, 255, 0.7);
   padding: 0px 10px 0px 10px;
@@ -74,15 +74,15 @@ body{
 }
 
 .nav-bar ul li:last-child{
+  display: inline-block;
   line-height: 35px;
-  display: inline;
   margin-right: 20px;
   padding: 0px 10px 0px 10px;
   color: rgba(255, 255, 255, 0.7);
 }
 
 .nav-bar ul li:hover{
-  background-color: red;
+  background-color: #2F2A26;
 }
 
 .container-body{
