@@ -103,9 +103,19 @@ body{
   margin-right: 20px;
 }
 
+.colonna-sx img{
+  width:10%;
+  float: left;
+}
+
+.colonna-sx h4{
+  line-height: 25px;
+}
+
 .colonna-sx ul{
   list-style-type: none;
   color: green;
+  line-height: 25px;
 }
 
 .centro{
@@ -121,6 +131,8 @@ body{
 .colonna-dx{
   width: 27%;
   float: left;
+  background: white;
+  margin-bottom: 35px;
 }
 
 .interno-colonna-dx{
@@ -131,4 +143,5 @@ body{
 
 .interno-colonna-dx ul{
   list-style-type: none;
+  line-height: 25px;
 }
