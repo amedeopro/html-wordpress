@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body{
@@ -67,10 +68,9 @@ body{
 .nav-bar ul li:not(:last-child){
   line-height: 35px;
   display: inline;
-  /* margin: 20px; */
-  padding: 5px;
   border-right: 1px solid lightgrey;
   color: rgba(255, 255, 255, 0.7);
+  padding: 0px 10px 0px 10px;
 
 }
 
@@ -78,7 +78,7 @@ body{
   line-height: 35px;
   display: inline;
   margin-right: 20px;
-  padding-right: 20px;
+  padding: 0px 10px 0px 10px;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -103,13 +103,32 @@ body{
   margin-right: 20px;
 }
 
+.colonna-sx ul{
+  list-style-type: none;
+  color: green;
+}
+
 .centro{
   width: 50%;
   float: left;
   margin-right: 20px;
 }
 
+.centro p, h1{
+  margin-top: 10px;
+}
+
 .colonna-dx{
   width: 27%;
   float: left;
+}
+
+.interno-colonna-dx{
+  width: 100%;
+  margin-top: 25px;
+  background: white;
+}
+
+.interno-colonna-dx ul{
+  list-style-type: none;
 }
